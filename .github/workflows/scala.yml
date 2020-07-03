@@ -22,5 +22,5 @@ jobs:
     - name: Upload jar file
       uses: actions/upload-artifact@v1
       with:
-        name: dsti-samples-assembly.jar
+        name: dsti-samples.zip
         path: target/scala-2.12/spark-sbt-template-assembly-1.0.jar
